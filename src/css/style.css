@@ -4,6 +4,55 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+.heading{
+    margin-left: 200px;
+}
+
+
+.card-3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+    height: 200px;
+    width: 470px;
+    margin-left: 70px;
+    z-index: 2;
+    margin-top: -125px;
+    font-size: small;
+    background-color: white;
+}
+.building3{
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    position:relative;
+    z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    opacity: 70%;
+    filter: drop-shadow(50%);
+}
+
+h3{
+    font-size: large;
+}
+
+.prof3{
+    width: 60px;
+    border-radius: 30px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.profile3{
+    margin-left: 30px;
+}
+.comment3{
+    margin-left: 30px;
+}
+
+h{
+    font-weight: bold;
+}
 /* General Styles End */
 
 /* Dummy Code Start */
