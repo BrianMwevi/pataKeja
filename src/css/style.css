@@ -53,34 +53,15 @@
     padding: 10px;
 }
 
-.card1 {
+.card1 {}
+
+.articlecard {
     width: 18rem;
     border-radius: 10px;
-    margin: 32px;
+    margin: 18px;
 }
 
-.card1-img {
-    border-radius: 10px;
-}
-
-.card1-body {
-    text-align: right;
-}
-
-.card-title .card-text {
+.articlecardtext {
     color: #1B1C57;
-}
-
-.card-introduction {
-    color: #1B1C57;
-}
-
-.card2 {
-    width: 18rem;
-    border-radius: 10px;
-    margin: 32px;
-}
-
-.card2-img {
-    border-radius: 10px;
+    text-align: center;
 }
