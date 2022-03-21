@@ -67,10 +67,20 @@
     text-align: right;
 }
 
-.card1-title .card1-text {
+.card-title .card-text {
     color: #1B1C57;
 }
 
 .card-introduction {
     color: #1B1C57;
+}
+
+.card2 {
+    width: 18rem;
+    border-radius: 10px;
+    margin: 32px;
+}
+
+.card2-img {
+    border-radius: 10px;
 }
