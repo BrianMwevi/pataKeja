@@ -142,6 +142,26 @@ h2{
 h{
     font-weight: bold;
 }
+.container{
+    overflow: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.row{
+    width: 1900px;
+}
+.heading{
+    text-align: center;
+    font-size: large;
+}
+.dots{
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+}
 /* General Styles End */
 
 /* Dummy Code Start */
