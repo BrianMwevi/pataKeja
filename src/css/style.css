@@ -38,3 +38,9 @@
     background-color: white;
     text-align: center;
 }
+
+.articlebtn {
+    background-color: #10B981;
+    color: black;
+    border-radius: 10px;
+}
