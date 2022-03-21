@@ -98,6 +98,50 @@ h1{
 h{
     font-weight: bold;
 }
+.card-2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+    height: 200px;
+    width: 470px;
+    margin-left: 70px;
+    z-index: 2;
+    margin-top: -125px;
+    font-size: small;
+    background-color: white;
+}
+.building2{
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    position:relative;
+    z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    opacity: 70%;
+    filter: drop-shadow(50%);
+}
+
+h2{
+    font-size: large;
+}
+
+.prof2{
+    width: 60px;
+    border-radius: 30px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.profile2{
+    margin-left: 30px;
+}
+.comment2{
+    margin-left: 30px;
+}
+
+h{
+    font-weight: bold;
+}
 /* General Styles End */
 
 /* Dummy Code Start */
