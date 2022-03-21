@@ -42,5 +42,35 @@
 .articlebtn {
     background-color: #10B981;
     color: black;
+    border-radius: 5px;
+}
+
+.readmorebtn {
+    background-color: blue;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.card1 {
+    width: 18rem;
     border-radius: 10px;
+    margin: 32px;
+}
+
+.card1-img {
+    border-radius: 10px;
+}
+
+.card1-body {
+    text-align: right;
+}
+
+.card1-title .card1-text {
+    color: #1B1C57;
+}
+
+.card-introduction {
+    color: #1B1C57;
 }
