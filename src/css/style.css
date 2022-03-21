@@ -1,27 +1,11 @@
 /* General Styles Start */
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* General Styles End */
 
-/* Dummy Code Start */
-.home {
-	height: 100vh;
-	background: url(../images/dummyImage.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-.home-title {
-	background-color: aquamarine;
-  border-radius: 4px;
-  left: 50%;
-  position: relative;
-  top: 50%;
-  transform: translate(-50%, -50%);
-	text-align: center;
-	width: 30%;
-}
-/* Dummy Code End */
+/* section booktour start */
+
+/* booktour End */
