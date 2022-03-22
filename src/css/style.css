@@ -30,8 +30,24 @@ header {
 	position: absolute;
 	left: 13%;
 }
+.home-title {
+	text-transform: capitalize;
+	color: #1b1c57;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 900;
+}
+.home-title__clip {
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-stroke: 1px;
+}
 
-.home-title, .home-para, .search-form {
+.home-title,
+.home-para,
+.search-form {
 	margin: 2rem 0;
 }
 /* Dummy Code End */
