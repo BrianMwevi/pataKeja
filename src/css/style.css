@@ -6,7 +6,7 @@
 }
 /* General Styles End */
 
-/* Dummy Code Start */
+/* Homepage Start */
 header {
 	position: relative;
 }
@@ -54,4 +54,5 @@ header {
 .input-group>.input-group-prepend>.btn {
 	border-radius: 0 4px 4px 0;
 }
-/* Dummy Code End */
+/* Homepage End */
+
