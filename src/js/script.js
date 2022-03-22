@@ -1,3 +1,3 @@
 $(document).ready(function () {
-	$("body").css("background-color", "cyan")
+  // $("body").css("background-color", "cyan")
 });
