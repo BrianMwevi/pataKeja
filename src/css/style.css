@@ -1,77 +1,53 @@
-        /* General Styles Start */
-        
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-        body {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-        /* General Styles End */
-        /* Dummy Code Start */
-        
-        .home {
-            height: 100vh;
-            background: url(../images/dummyImage.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-        }
-        
-        .home-title {
-            background-color: aquamarine;
-            border-radius: 4px;
-            left: 50%;
-            position: relative;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            width: 30%;
-        }
-        /* Dummy Code End */
-        
-        .articlesection {
-            background-color: white;
-            text-align: center;
-            font-style: 'Poppins';
-        }
-        
-        .section-introduction {
-            padding-top: 20px;
-        }
-        
-        .articlebtn {
-            background-color: #10B981;
-            color: black;
-            border-radius: 5px;
-            margin: 18px;
-        }
-        
-        .readmorebtn {
-            background-color: blue;
-            color: black;
-            border-radius: 5px;
-            margin: 5px;
-            padding: 10px;
-        }
-        
-        .articlecard {
-            width: 18rem;
-            border-radius: 10px;
-            margin: 18px;
-        }
-        
-        .articlecardtext {
-            color: #1B1C57;
-            text-align: center;
-            align-items: center;
-        }
-        
-        .articleright {
-            border-radius: 10px;
-            margin: 18px;
-        }
-        
-        .description {
-            color: #888B97
-        }
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+      body {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          font-family: 'Poppins', sans-serif;
+      }
+      
+      .articlesection {
+          background-color: white;
+          text-align: center;
+          font-style: 'Poppins';
+      }
+      
+      .section-introduction {
+          padding-top: 20px;
+      }
+      
+      .articlebtn {
+          background-color: #10B981;
+          color: black;
+          border-radius: 5px;
+          margin: 18px;
+      }
+      
+      .readmorebtn {
+          background-color: blue;
+          color: black;
+          border-radius: 5px;
+          margin: 5px;
+          padding: 10px;
+      }
+      
+      .articlecard {
+          width: 18rem;
+          border-radius: 10px;
+          margin: 18px;
+      }
+      
+      .articlecardtext {
+          color: #1B1C57;
+          text-align: center;
+          align-items: center;
+      }
+      
+      .articleright {
+          border-radius: 10px;
+          margin: 18px;
+      }
+      
+      .description {
+          color: #888B97
+      }
