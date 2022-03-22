@@ -51,8 +51,6 @@
             padding: 10px;
         }
         
-        .card1 {}
-        
         .articlecard {
             width: 18rem;
             border-radius: 10px;
@@ -68,4 +66,8 @@
         .articleright {
             border-radius: 10px;
             margin: 18px;
+        }
+        
+        .description {
+            color: #888B97
         }
