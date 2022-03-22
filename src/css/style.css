@@ -4,6 +4,11 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: small
+    }
+  }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body{
     padding: 0;
@@ -16,23 +21,46 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
-h{
-    color: #1b1c57;
-    font-size: 15px;
-}
+
 p{
     color:#626687;
 
 }
 .rank{
-    font-weight: bold;
+    font-weight: bolder;
 }
+h{
+    font-size: larger;
+    color: #1b1c57;
+}
+.fa-solid {
+    color: yellow;
+}
+.rating{
+    margin-left: 150px;
+}
+.container{
+    overflow: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.row{
+    width: 1900px;
+}
+
+/* General Styles End */
+
+/* Dummy Code Start */
 .home{
     height: 100vh;
     background:url(../images/dummyImage.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+.fa-solid fa-star{
+    color: blue;
 }
 .home-title{
     background-color: aquamarine;
@@ -44,10 +72,16 @@ p{
     text-align: center;
     width: 200px;
 }
+
+/* Dummy Code End */
+
+/* Section-header */
+
 .heading{
     margin-left: 200px;
 }
 
+/* column-1 with image and card Start */
 .card-3{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -89,9 +123,9 @@ h3{
     margin-left: 30px;
 }
 
-h{
-    font-weight: bold;
-}
+/* column-1 with image and card End */
+
+/* column-2 with image and card Start */
 
 .card-1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -130,6 +164,10 @@ h{
     margin-left: 30px;
 }
 
+/* column-2 with image and card End */
+
+/* column-3 with image and card Start */
+
 .card-2{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -167,18 +205,5 @@ h{
     margin-left: 30px;
 }
 
-.container{
-    overflow: scroll;
-}
-.container::-webkit-scrollbar{
-    display: none;
-}
-.row{
-    width: 1900px;
-}
+/* column-3 with image and card End */
 
-/* General Styles End */
-
-/* Dummy Code Start */
-
-/* Dummy Code End */
