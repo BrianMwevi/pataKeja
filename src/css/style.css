@@ -28,4 +28,12 @@
   top: 300px;
   border-radius: 4px;
 }
+.sideB .pic3 {
+  position: absolute;
+  width: 96px;
+  height: 80px;
+  left: 1096px;
+  top: 388px;
+  border-radius: 4px;
+}
 /* booktour End */
