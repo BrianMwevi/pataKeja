@@ -5,3 +5,54 @@
 	box-sizing: border-box;
 }
 /* General Styles End */
+
+/* Homepage Start */
+header {
+	position: relative;
+}
+.home-right {
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	background: url(../images/home-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+}
+.home-left {
+	position: relative;
+	width: 50%;
+}
+.home-text {
+	position: absolute;
+	left: 13%;
+}
+.home-title {
+	text-transform: capitalize;
+	color: #1b1c57;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 900;
+}
+.home-title__clip {
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-stroke: 1px;
+}
+
+.home-title,
+.home-para,
+.search-form {
+	margin: 2rem 0;
+}
+
+.input-group>.input-group-prepend>.btn {
+	border-radius: 0 4px 4px 0;
+}
+/* Homepage End */
+
