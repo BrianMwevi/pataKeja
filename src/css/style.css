@@ -1,17 +1,17 @@
 /* General Styles Start */
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* General Styles End */
-
 /* Homepage Start */
 header {
 	position: relative;
+	height: 100vh;
 }
 .home-right {
-	height: 100vh;
+	height: 100%;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -24,6 +24,7 @@ header {
 }
 .home-left {
 	position: relative;
+	height: 100%;
 	width: 50%;
 }
 .home-text {
@@ -55,3 +56,114 @@ header {
 	border-radius: 0 4px 4px 0;
 }
 /* Homepage End */
+
+/* section booktour start */
+.bookTour {
+  height: 100vh;
+  width: 100%;
+  padding: 100px;
+}
+/* start container sideA */
+.hr-line {
+  display: flex;
+  flex-direction: row;
+  color: #f59e0b;
+}
+.hr-line:before {
+  width: 30;
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #f59e0b;
+  margin: auto;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.detail1,
+.detail2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+}
+.clogo {
+  width: 76px;
+  height: 76px;
+  border-radius: 50px;
+}
+.sideA h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #1b1c57;
+}
+.sideA p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #626687;
+  opacity: 0.75;
+}
+.sideA h4 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #1b1c57;
+  opacity: 0.75;
+}
+
+/* end of sideA */
+
+/* start container sideB */
+.sideB .pic1 {
+  position: absolute;
+  width: 488px;
+  height: 416px;
+  left: 828px;
+  top: 100px;
+  border-radius: 4px;
+}
+.sideB .pic2 {
+  position: absolute;
+  width: 296px;
+  height: 168px;
+  left: 788px;
+  top: 400px;
+  border-radius: 4px;
+}
+.sideB .pic3 {
+  position: absolute;
+  width: 96px;
+  height: 80px;
+  left: 1096px;
+  top: 488px;
+  border-radius: 4px;
+}
+.sideB .pic4 {
+  position: absolute;
+  width: 96px;
+  height: 80px;
+  left: 1200px;
+  top: 488px;
+  border-radius: 4px;
+}
+.sideB .play {
+  position: absolute;
+  left: 1050px;
+  top: 300px;
+  /* background: rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(5px);
+}
+.sideB svg {
+  position: absolute;
+  width: 100px;
+  height: 416px;
+  left: 1200px;
+  top: 0;
+  border-radius: 4px;
+}
+/* end of sideB */
+/* booktour End */
