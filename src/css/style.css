@@ -7,5 +7,17 @@
 /* General Styles End */
 
 /* section booktour start */
+.bookTour {
+  height: 100vh;
+  width: 100%;
+}
+
+.sideB .pic1 {
+  position: absolute;
+  width: 488px;
+  height: 416px;
+  left: 828px;
+  top: 0;
+}
 
 /* booktour End */
