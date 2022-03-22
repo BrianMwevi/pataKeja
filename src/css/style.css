@@ -1,27 +1,38 @@
 /* General Styles Start */
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* General Styles End */
 
-/* Dummy Code Start */
-.home {
-	height: 100vh;
-	background: url(../images/dummyImage.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+/* featured houses style Start */
+.featured-content {
+  height: 100vh;
 }
-.home-title {
-	background-color: aquamarine;
-  border-radius: 4px;
-  left: 50%;
+.card {
+  width: 18rem;
+  margin: 1%;
+  background: none;
+  border: none;
+}
+
+.card img {
+  border-radius: 1.5em;
+}
+
+.featured-image {
   position: relative;
-  top: 50%;
-  transform: translate(-50%, -50%);
-	text-align: center;
-	width: 30%;
 }
-/* Dummy Code End */
+.featured-tag {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+}
+
+.featured-tag p {
+  background-color: #d1fae5bd;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+}
+/* featured houses style end */
