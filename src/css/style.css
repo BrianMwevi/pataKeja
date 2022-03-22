@@ -9,20 +9,38 @@
 /* featured houses style Start */
 .featured-content {
   height: 100vh;
+  /* position: relative; */
+}
+.featured-header {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.toggle-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.toggle-button button {
+  border-radius: 2em;
+  /* padding: 0.8em; */
 }
 .card {
   width: 18rem;
-  margin: 1%;
+  margin: 2%;
   background: none;
   border: none;
 }
 
-.card img {
+.featured-image img {
   border-radius: 1.5em;
 }
 
 .featured-image {
   position: relative;
+  /* height: 70%; */
 }
 .featured-tag {
   position: absolute;
