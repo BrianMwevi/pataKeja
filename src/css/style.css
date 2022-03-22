@@ -38,6 +38,31 @@
   justify-content: space-between;
   padding: 0px;
 }
+.clogo {
+  width: 76px;
+  height: 76px;
+  border-radius: 50px;
+}
+.sideA h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #1b1c57;
+}
+.sideA p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #626687;
+  opacity: 0.75;
+}
+.sideA h4 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #1b1c57;
+  opacity: 0.75;
+}
 
 /* end of sideA */
 
