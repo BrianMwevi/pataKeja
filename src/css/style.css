@@ -101,11 +101,11 @@ header {
 
 .featured-image img {
   border-radius: 1.5em;
+  height: 400px;
 }
 
 .featured-image {
   position: relative;
-  /* height: 70%; */
 }
 .featured-tag {
   position: absolute;
