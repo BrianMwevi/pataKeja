@@ -7,21 +7,28 @@
 /* General Styles End */
 
 /* Dummy Code Start */
-.home {
+header {
+	position:relative;
+}
+.home-right {
 	height: 100vh;
-	background: url(../images/dummyImage.jpg);
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	background: url(../images/home-image.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	z-index: -1;
 }
-.home-title {
-	background-color: aquamarine;
-  border-radius: 4px;
-  left: 50%;
-  position: relative;
-  top: 50%;
-  transform: translate(-50%, -50%);
-	text-align: center;
-	width: 30%;
+.home-left {
+	position: absolute;
+	left: 0;
+	height: 100vh;
+	width: 50%;
+	top: 0;
+	z-index: -1;
+
 }
 /* Dummy Code End */
