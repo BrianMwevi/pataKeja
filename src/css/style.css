@@ -6,14 +6,13 @@
 }
 /* General Styles End */
 
-/* Dummy Code Start */
+/* Homepage Start */
 header {
 	position: relative;
-	height: 100vh;
 }
 .home-right {
+	height: 100vh;
 	position: absolute;
-	height: 100%;
 	top: 0;
 	right: 0;
 	width: 50%;
@@ -52,7 +51,7 @@ header {
 	margin: 2rem 0;
 }
 
-.input-group>.input-group-prepend>.btn {
+.input-group > .input-group-prepend > .btn {
 	border-radius: 0 4px 4px 0;
 }
-/* Dummy Code End */
+/* Homepage End */
