@@ -8,7 +8,7 @@
 
 /* Dummy Code Start */
 header {
-	position:relative;
+	position: relative;
 }
 .home-right {
 	height: 100vh;
@@ -23,12 +23,15 @@ header {
 	z-index: -1;
 }
 .home-left {
-	position: absolute;
-	left: 0;
-	height: 100vh;
+	position: relative;
 	width: 50%;
-	top: 0;
-	z-index: -1;
+}
+.home-text {
+	position: absolute;
+	left: 13%;
+}
 
+.home-title, .home-para, .search-form {
+	margin: 2rem 0;
 }
 /* Dummy Code End */
