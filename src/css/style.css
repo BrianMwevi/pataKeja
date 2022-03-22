@@ -4,10 +4,29 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body{
+    background-color: white;
+}
+.home{
+    height: 100vh;
+    background:url(../images/dummyImage.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.home-title{
+    background-color: aquamarine;
+    border-radius: 4px;
+    left: 50%;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 200px;
+}
 .heading{
     margin-left: 200px;
 }
-
 
 .card-3{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
