@@ -39,6 +39,83 @@
               <span>1 Floors</span>
             </div>
             <hr class="solid" />
+            <div class="contact">
+              <div class="contact-logo">
+                <img src="src/images/patakeja logo.jpeg" alt="" />
+              </div>
+              <div class="contact-agent">
+                <h3>Pata Keja</h3>
+                <h4>Customer Agent</h4>
+              </div>
+              <div class="contact-form">
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#form"
+                >
+                  Contact Us
+                </button>
+
+                <!-- The Modal -->
+                <div class="modal" id="form">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Pata Keja</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <input
+                          type="text"
+                          name="fname"
+                          placeholder="First Name"
+                          required
+                        />
+                        <input
+                          type="text"
+                          name="lname"
+                          placeholder="Lastt Name"
+                          required
+                        />
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="example@gmail.com"
+                          required
+                        />
+                        <textarea
+                          name="message"
+                          id=""
+                          cols="30"
+                          rows="10"
+                        ></textarea>
+                        <input type="submit" name="submit" />
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-6-sm"></div>
         </div>
