@@ -36,6 +36,10 @@
             font-style: 'Poppins';
         }
         
+        .section-introduction {
+            padding-top: 20px;
+        }
+        
         .articlebtn {
             background-color: #10B981;
             color: black;
