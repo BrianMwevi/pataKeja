@@ -50,4 +50,8 @@ header {
 .search-form {
 	margin: 2rem 0;
 }
+
+.input-group>.input-group-prepend>.btn {
+	border-radius: 0 4px 4px 0;
+}
 /* Dummy Code End */
