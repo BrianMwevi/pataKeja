@@ -56,16 +56,17 @@ header {
 }
 /* Homepage End */
 /* featured houses style Start */
-.featured-content {
+.featured-units-home {
   height: 100vh;
-  /* position: relative; */
+  margin-top: 20%;
+  position: relative;
 }
-/* .featured-header {
+.featured-header {
   position: absolute;
-  top: 20%;
+  top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
+}
 .toggle-button {
   position: absolute;
   right: 0;
