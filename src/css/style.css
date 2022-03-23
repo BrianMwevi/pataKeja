@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap"); */
+
 /* General Styles Start */
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
+	/* font-family: "Poppins", sans-serif; */
+	font-family: "Lexend", sans-serif;
 }
 /* General Styles End */
 
 /* Homepage Start */
+.navbar {
+	z-index: 3;
+}
 header {
 	position: relative;
 	height: 100vh;
@@ -19,11 +25,24 @@ header {
 	top: 0;
 	right: 0;
 	width: 50%;
-	background: url(../images/home-image.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	z-index: -1;
+}
+
+.home-right .slider-text {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 20px 0 10px 15px;
+	text-align: left;
+	background: linear-gradient(
+		90deg,
+		rgba(0, 167, 81, 0.74) 3.16%,
+		rgba(209, 250, 229, 0.5254) 64.68%,
+		rgba(209, 250, 229, 0) 82.97%
+	);
+}
+
+.slider-header {
+	color: #1b1c57;
 }
 .home-left {
 	position: relative;
@@ -32,21 +51,22 @@ header {
 }
 .home-text {
 	position: absolute;
-	left: 13%;
+	left: 9%;
 }
 .home-title {
 	text-transform: capitalize;
 	color: #1b1c57;
 	font-size: 40px;
 	line-height: 50px;
-	font-weight: 900;
+	font-weight: 600;
+	font-style: normal;
 }
 .home-title__clip {
-	background-clip: text;
 	-webkit-text-fill-color: transparent;
+	color: transparent;
 	-webkit-background-clip: text;
 	background-clip: text;
-	-webkit-text-stroke: 1px;
+	-webkit-text-stroke: 1.5px #1b1c57;
 }
 
 .home-title,
@@ -58,12 +78,9 @@ header {
 .input-group > .input-group-prepend > .btn {
 	border-radius: 0 4px 4px 0;
 }
+
 /* Homepage End */
-@media only screen and (max-width: 600px) {
-	body {
-		font-size: small;
-	}
-}
+
 h2 {
 	color: #1b1c57;
 	font-weight: bold;
@@ -107,7 +124,6 @@ p {
 	height: 185px;
 	width: 470px;
 	margin-left: 70px;
-	z-index: 2;
 	margin-top: -125px;
 	font-size: small;
 	background-color: white;
