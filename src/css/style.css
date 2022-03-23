@@ -7,7 +7,7 @@
   margin: 0;
   box-sizing: border-box;
   /* font-family: "Poppins", sans-serif; */
-  font-family: "Lexend", sans-serif;
+  font-family: Lexend, sans-serif;
 }
 /* General Styles End */
 
@@ -171,14 +171,10 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
 .ft-bookTour {
   margin-top: 100px;
   margin-right: 15px;
-  /* border: 2px solid black; */
 }
-/* start container sideA */
 .sideA {
-  padding-left: 70px;
+  padding-left: 8%;
   height: 403px;
-  /* width: 480px; */
-  /* border: 2px solid rgb(23, 145, 39); */
   margin: 28px 10px 28px 0px;
 }
 .hr-line {
@@ -194,16 +190,16 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   margin: auto;
 }
 .detail {
+  width: 65%;
   height: 124px;
   color: #1b1c57;
-  /* border: 2px solid black; */
 }
 .detail1,
 .detail2 {
   display: flex;
   align-items: flex-start;
   height: 32px;
-  width: 440px;
+  width: 100%;
   padding: 0px;
 }
 
@@ -225,8 +221,7 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   margin-bottom: 27px;
 }
 .contact {
-  /* border: 2px solid black; */
-  width: 403px;
+  width: 65%;
   height: 52.48px;
   margin-top: 40px;
 }
@@ -236,20 +231,16 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   border-radius: 50px;
 }
 .contact-agent {
-  /* border: 2px solid black; */
-  width: 128px;
   height: 52px;
 }
 .contact-agent h3 {
   color: #0e1735;
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;
 }
 .contact-agent h4 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   color: #888b97;
   opacity: 0.75;
 }
@@ -267,15 +258,10 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   width: 150px;
   height: 35px;
 }
-/* end of sideA */
-
-/* start container sideB */
 .sideB {
-  /* width: 528px; */
-  /* padding-right: 70px; */
+  padding-right: 70px;
   height: 459px;
-  /* border: 2px solid rgb(202, 16, 16); */
-  margin-right: 20px;
+  margin-right: 6%;
 }
 .sideB .pic1 {
   background: url(../images/home1.jpeg);
@@ -283,9 +269,9 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   background-size: 100% 100%;
   background-position: center center;
   position: absolute;
-  width: 488px;
-  height: 416px;
-  left: 27%;
+  width: 80%;
+  height: 90%;
+  left: 20%;
   border-radius: 4px;
 }
 .sideB .pic2 {
@@ -296,8 +282,8 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   position: absolute;
   width: 296px;
   height: 168px;
-  left: 20%;
-  margin-top: 291px;
+  left: 13%;
+  bottom: 0%;
   border-radius: 4px;
 }
 .sideB .pic3 {
@@ -308,8 +294,8 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   position: absolute;
   width: 96px;
   height: 80px;
-  left: 67%;
-  margin-top: 379px;
+  left: 63%;
+  bottom: 0%;
   border-radius: 4px;
 }
 .sideB .pic4 {
@@ -320,8 +306,8 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   position: absolute;
   width: 96px;
   height: 80px;
-  left: 83%;
-  margin-top: 379px;
+  left: 80%;
+  bottom: 0%;
   border-radius: 4px;
 }
 .sideB .play {
@@ -329,10 +315,11 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
+  height: 48px;
+  width: 48px;
   position: absolute;
-  left: 422px;
-  margin-top: 200px;
+  left: 55%;
+  top: 40%;
   backdrop-filter: blur(5px);
 }
-/* end of sideB */
 /* booktour End */
