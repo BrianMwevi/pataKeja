@@ -61,29 +61,21 @@ header {
 /* Homepage End */
 
 /* featured houses style Start */
-.featured-units-home {
+.ft-houses {
   height: 100vh;
-  margin-top: 20%;
-  position: relative;
-  font-family: "Poppins", sans-serif;
 }
-.featured-header {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-bottom: 4%;
-}
-.featured-header h4 {
+.ft-header h4 {
   color: #1b1c57;
   font-weight: bolder;
   font-size: 32px;
 }
+.ft-header {
+  position: relative;
+}
 .toggle-button {
   position: absolute;
-  right: 0;
-  bottom: 0;
   top: 0;
+  right: 0;
 }
 .toggle-button button {
   border-radius: 2em;
@@ -94,7 +86,6 @@ header {
 }
 .featured-card {
   width: 18rem;
-  margin: 2%;
   background: none;
   border: none;
 }
@@ -178,7 +169,7 @@ p {
 .container::-webkit-scrollbar {
   display: none;
 }
-.row {
+.customers-about-us {
   width: 1900px;
 }
 
