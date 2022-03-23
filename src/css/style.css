@@ -78,165 +78,91 @@ header {
 .input-group > .input-group-prepend > .btn {
 	border-radius: 0 4px 4px 0;
 }
-
 /* Homepage End */
 
-h2 {
+/* featured houses style Start */
+.featured-units-home {
+	position: relative;
+	font-family: "Poppins", sans-serif;
+	margin: 100px 0;
+}
+.featured-header {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-bottom: 4%;
+}
+.featured-header h4 {
 	color: #1b1c57;
-	font-weight: bold;
-	text-align: center;
-}
-
-p {
-	color: #626687;
-}
-.rank {
 	font-weight: bolder;
+	font-size: 32px;
+}
+.toggle-button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+.toggle-button button {
+	border-radius: 2em;
+	width: 60px;
+	font-size: 1.1em;
+	font-weight: bolder;
+	padding: 6px 8px;
+}
+.featured-card {
+	width: 18rem;
+	margin: 2%;
+	background: none;
+	border: none;
 }
 
-.fa-solid {
-	color: yellow;
+.featured-image img {
+	border-radius: 1.5em;
+	height: 400px;
 }
-.rating {
-	margin-left: 150px;
+
+.featured-image {
+	position: relative;
 }
-.container {
-	overflow: scroll;
+.featured-tag {
+	position: absolute;
+	left: 5%;
+	bottom: 0;
+	font-weight: bold;
 }
-.container::-webkit-scrollbar {
+
+.featured-tag > p {
+	background-color: #d1fae5bd;
+	border-radius: 2em;
+	padding: 0.5em 1em;
+	font-weight: 800;
+	font-size: 14px;
+}
+div > .featured-card:first-child > .featured-image > .featured-tag p {
+	background-color: hsla(149, 84%, 58%, 0.71);
+	color: #1f2f58;
+}
+div > .featured-card:nth-child(2) > .featured-image > .featured-tag p {
+	background-color: #dbeafe;
+	color: #1d4ed8;
+}
+
+div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
+	color: #047857;
+}
+
+.ft-card-body > .ft-card-text {
+	font-weight: bold;
+	font-size: 24px;
+	color: #0e1735;
+}
+.ft-card-body > .ft-card-text:last-child {
+	color: #3c4563;
+	font-size: 20px;
+}
+.slide-2 {
 	display: none;
 }
-.row {
-	width: 1900px;
-}
-
-/* Section-header */
-
-.heading {
-	margin-left: 200px;
-}
-
-/* column-1 with image and card Start */
-.card-3 {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	transition: 0.3s;
-	border-radius: 25px;
-	height: 185px;
-	width: 470px;
-	margin-left: 70px;
-	margin-top: -125px;
-	font-size: small;
-	background-color: white;
-}
-.building-image-three {
-	width: 600px;
-	height: 300px;
-	border-radius: 15px;
-	position: relative;
-	z-index: -1;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	opacity: 70%;
-	filter: drop-shadow(50%);
-}
-
-h3 {
-	font-size: large;
-}
-
-.profile-image-three {
-	width: 60px;
-	border-radius: 30px;
-	float: left;
-	margin-left: 15px;
-	margin-right: 20px;
-}
-.customer-profile-three {
-	margin-left: 30px;
-}
-.review-three {
-	margin-left: 30px;
-}
-
-/* column-1 with image and card End */
-
-/* column-2 with image and card Start */
-
-.card-1 {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	transition: 0.3s;
-	border-radius: 25px;
-	height: 185px;
-	width: 470px;
-	margin-left: 70px;
-	z-index: 2;
-	margin-top: -125px;
-	font-size: small;
-	background-color: white;
-}
-.building-image-one {
-	width: 600px;
-	height: 300px;
-	border-radius: 15px;
-	position: relative;
-	z-index: -1;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	opacity: 70%;
-	filter: drop-shadow(50%);
-}
-
-.profile-image-one {
-	width: 60px;
-	border-radius: 30px;
-	float: left;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.customer-profile-one {
-	margin-left: 30px;
-}
-.review-one {
-	margin-left: 30px;
-}
-
-/* column-2 with image and card End */
-
-/* column-3 with image and card Start */
-
-.card-2 {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	transition: 0.3s;
-	border-radius: 25px;
-	height: 185px;
-	width: 470px;
-	margin-left: 70px;
-	z-index: 2;
-	margin-top: -125px;
-	font-size: small;
-	background-color: white;
-}
-.building-image-two {
-	width: 600px;
-	height: 300px;
-	border-radius: 15px;
-	position: relative;
-	z-index: -1;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	opacity: 70%;
-	filter: drop-shadow(50%);
-}
-
-.profile-image-two {
-	width: 60px;
-	border-radius: 30px;
-	float: left;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.customer-profile-two {
-	margin-left: 30px;
-}
-.review-two {
-	margin-left: 30px;
-}
-
-/* column-3 with image and card End */
+/* featured houses style end */
