@@ -143,6 +143,9 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   color: #3c4563;
   font-size: 20px;
 }
+.slide-2 {
+  display: none;
+}
 /* featured houses style end */
 
 @media only screen and (max-width: 600px) {
