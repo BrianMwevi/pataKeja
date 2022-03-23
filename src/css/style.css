@@ -1,169 +1,192 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
 /* @import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap"); */
 
 /* General Styles Start */
 * {
+<<<<<<< HEAD
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   /* font-family: "Poppins", sans-serif; */
   font-family: Lexend, sans-serif;
+=======
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* font-family: "Poppins", sans-serif; */
+	font-family: "Lexend", sans-serif;
+>>>>>>> 5ce044bfa0b3783933ac3b8bc45c8e7a4bdbe990
 }
 /* General Styles End */
 
 /* Homepage Start */
+
 .navbar {
-  z-index: 3;
+	z-index: 3;
 }
+
 header {
-  position: relative;
-  height: 100vh;
+	position: relative;
+	height: 100vh;
 }
+
 .home-right {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
 }
 
 .home-right .slider-text {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 20px 0 10px 15px;
-  text-align: left;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 167, 81, 0.74) 3.16%,
-    rgba(209, 250, 229, 0.5254) 64.68%,
-    rgba(209, 250, 229, 0) 82.97%
-  );
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 20px 0 10px 15px;
+	text-align: left;
+	background: linear-gradient(
+		90deg,
+		rgba(0, 167, 81, 0.74) 3.16%,
+		rgba(209, 250, 229, 0.5254) 64.68%,
+		rgba(209, 250, 229, 0) 82.97%
+	);
 }
 
 .slider-header {
-  color: #1b1c57;
+	color: #1b1c57;
 }
+
 .home-left {
-  position: relative;
-  height: 100%;
-  width: 50%;
+	position: relative;
+	height: 100%;
+	width: 50%;
 }
+
 .home-text {
-  position: absolute;
-  left: 9%;
+	position: absolute;
+	left: 9%;
 }
+
 .home-title {
-  text-transform: capitalize;
-  color: #1b1c57;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 600;
-  font-style: normal;
+	text-transform: capitalize;
+	color: #1b1c57;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+	font-style: normal;
 }
+
 .home-title__clip {
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-stroke: 1.5px #1b1c57;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-stroke: 1.5px #1b1c57;
 }
 
 .home-title,
 .home-para,
 .search-form {
-  margin: 2rem 0;
+	margin: 2rem 0;
 }
 
 .input-group > .input-group-prepend > .btn {
-  border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
 }
 /* Homepage End */
 
 /* featured houses style Start */
 .featured-units-home {
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  margin: 100px 0;
+	position: relative;
+	font-family: "Poppins", sans-serif;
+	margin: 100px 0;
 }
+
 .featured-header {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-bottom: 4%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-bottom: 4%;
 }
+
 .featured-header h4 {
-  color: #1b1c57;
-  font-weight: bolder;
-  font-size: 32px;
+	color: #1b1c57;
+	font-weight: bolder;
+	font-size: 32px;
 }
+
 .toggle-button {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  top: 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
 }
+
 .toggle-button button {
-  border-radius: 2em;
-  width: 60px;
-  font-size: 1.1em;
-  font-weight: bolder;
-  padding: 6px 8px;
+	border-radius: 2em;
+	width: 60px;
+	font-size: 1.1em;
+	font-weight: bolder;
+	padding: 6px 8px;
 }
+
 .featured-card {
-  width: 18rem;
-  margin: 2%;
-  background: none;
-  border: none;
+	width: 18rem;
+	margin: 2%;
+	background: none;
+	border: none;
 }
 
 .featured-image img {
-  border-radius: 1.5em;
-  height: 400px;
+	border-radius: 1.5em;
+	height: 400px;
 }
 
 .featured-image {
-  position: relative;
+	position: relative;
 }
+
 .featured-tag {
-  position: absolute;
-  left: 5%;
-  bottom: 0;
-  font-weight: bold;
+	position: absolute;
+	left: 5%;
+	bottom: 0;
+	font-weight: bold;
 }
 
 .featured-tag > p {
-  background-color: #d1fae5bd;
-  border-radius: 2em;
-  padding: 0.5em 1em;
-  font-weight: 800;
-  font-size: 14px;
+	background-color: #d1fae5bd;
+	border-radius: 2em;
+	padding: 0.5em 1em;
+	font-weight: 800;
+	font-size: 14px;
 }
 div > .featured-card:first-child > .featured-image > .featured-tag p {
-  background-color: hsla(149, 84%, 58%, 0.71);
-  color: #1f2f58;
+	background-color: hsla(149, 84%, 58%, 0.71);
+	color: #1f2f58;
 }
 div > .featured-card:nth-child(2) > .featured-image > .featured-tag p {
-  background-color: #dbeafe;
-  color: #1d4ed8;
+	background-color: #dbeafe;
+	color: #1d4ed8;
 }
 
 div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
-  color: #047857;
+	color: #047857;
 }
 
 .ft-card-body > .ft-card-text {
-  font-weight: bold;
-  font-size: 24px;
-  color: #0e1735;
+	font-weight: bold;
+	font-size: 24px;
+	color: #0e1735;
 }
 .ft-card-body > .ft-card-text:last-child {
-  color: #3c4563;
-  font-size: 20px;
+	color: #3c4563;
+	font-size: 20px;
 }
+
 .slide-2 {
-  display: none;
+	display: none;
 }
 /* featured houses style end */
 
@@ -177,16 +200,16 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   margin: 28px 0px 28px 0px;
 }
 .hr-line {
-  display: flex;
-  flex-direction: row;
-  color: #f59e0b;
+	display: flex;
+	flex-direction: row;
+	color: #f59e0b;
 }
 .hr-line:before {
-  width: 0px;
-  content: "";
-  flex: 1 1;
-  border-bottom: 2px solid #f59e0b;
-  margin: auto;
+	width: 0px;
+	content: "";
+	flex: 1 1;
+	border-bottom: 2px solid #f59e0b;
+	margin: auto;
 }
 .detail {
   width: 65%;
@@ -215,16 +238,16 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   opacity: 0.75;
 }
 .solid {
-  margin-bottom: 27px;
+	margin-bottom: 27px;
 }
 .contact {
   width: 65%;
   height: 52.48px;
 }
 .clogo {
-  width: 52.48px;
-  height: 52.48px;
-  border-radius: 50px;
+	width: 52.48px;
+	height: 52.48px;
+	border-radius: 50px;
 }
 .contact-agent {
   height: 52px;
@@ -241,18 +264,18 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   opacity: 0.75;
 }
 .main-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-  height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+	height: 500px;
 }
 .main-form input {
-  height: 35px;
+	height: 35px;
 }
 .send {
-  width: 150px;
-  height: 35px;
+	width: 150px;
+	height: 35px;
 }
 .sideB {
   height: 459px;
@@ -318,3 +341,51 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   backdrop-filter: blur(5px);
 }
 /* booktour End */
+
+/* Article section start */
+.articlesection {
+	background-color: white;
+	text-align: center;
+	font-style: "Poppins";
+}
+
+.section-introduction {
+	padding-top: 100px;
+}
+
+.articlebtn {
+	background-color: #10b981;
+	color: black;
+	border-radius: 5px;
+	margin: 18px;
+}
+
+.readmorebtn {
+	background-color: blue;
+	color: black;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.articlecard {
+	width: 18rem;
+	border-radius: 10px;
+	margin: 18px;
+}
+
+.articlecardtext {
+	color: #1b1c57;
+	text-align: left;
+	align-items: center;
+}
+
+.articleright {
+	border-radius: 10px;
+	margin: 18px;
+}
+
+.description {
+	color: #888b97;
+}
+/* Article section end */
