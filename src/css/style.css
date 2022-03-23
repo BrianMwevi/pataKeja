@@ -1,53 +1,126 @@
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-      body {
-          padding: 0;
-          margin: 0;
-          box-sizing: border-box;
-          font-family: 'Poppins', sans-serif;
-      }
-      
-      .articlesection {
-          background-color: white;
-          text-align: center;
-          font-style: 'Poppins';
-      }
-      
-      .section-introduction {
-          padding-top: 20px;
-      }
-      
-      .articlebtn {
-          background-color: #10B981;
-          color: black;
-          border-radius: 5px;
-          margin: 18px;
-      }
-      
-      .readmorebtn {
-          background-color: blue;
-          color: black;
-          border-radius: 5px;
-          margin: 5px;
-          padding: 10px;
-      }
-      
-      .articlecard {
-          width: 18rem;
-          border-radius: 10px;
-          margin: 18px;
-      }
-      
-      .articlecardtext {
-          color: #1B1C57;
-          text-align: center;
-          align-items: center;
-      }
-      
-      .articleright {
-          border-radius: 10px;
-          margin: 18px;
-      }
-      
-      .description {
-          color: #888B97
-      }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+/* General Styles Start */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* General Styles End */
+
+
+/* Homepage Start */
+
+header {
+    position: relative;
+    height: 100vh;
+}
+
+.home-right {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    background: url(../images/home-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+.home-left {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.home-text {
+    position: absolute;
+    left: 13%;
+}
+
+.home-title {
+    text-transform: capitalize;
+    color: #1b1c57;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+}
+
+.home-title__clip {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 1px;
+}
+
+.home-title,
+.home-para,
+.search-form {
+    margin: 2rem 0;
+}
+
+.input-group>.input-group-prepend>.btn {
+    border-radius: 0 4px 4px 0;
+}
+
+
+/* Homepage End */
+
+
+/* Article section start */
+
+.articlesection {
+    background-color: white;
+    text-align: center;
+    font-style: 'Poppins';
+}
+
+.section-introduction {
+    padding-top: 20px;
+}
+
+.articlebtn {
+    background-color: #10B981;
+    color: black;
+    border-radius: 5px;
+    margin: 18px;
+}
+
+.readmorebtn {
+    background-color: blue;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.articlecard {
+    width: 18rem;
+    border-radius: 10px;
+    margin: 18px;
+}
+
+.articlecardtext {
+    color: #1B1C57;
+    text-align: center;
+    align-items: center;
+}
+
+.articleright {
+    border-radius: 10px;
+    margin: 18px;
+}
+
+.description {
+    color: #888B97
+}
+
+
+/* Article section end */
