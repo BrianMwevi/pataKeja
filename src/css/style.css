@@ -5,3 +5,40 @@
 	box-sizing: border-box;
 }
 /* General Styles End */
+.card-subscribe{
+	font-family: lexend;
+	font-weight: 600 semi bold;
+	font-style: normal;
+	line-height: 48px;
+	text-align: center;
+}
+.copyright{
+	text-align: center;
+	font-weight: 400 regular;
+	font-size: 14px;
+	line-height: 17.5px;
+}
+.subscribe{
+	position: absolute;
+
+	bottom: 1200px !important;
+	left: 10px;
+	
+}
+.image{
+	/* position: absolute; */
+}
+.logo{
+	float: left;
+	margin-right: 10px;
+}
+@import url(https://fonts.googleapis.com/css2?family=poppins:wght@200&display=swap);
+body{
+	font-family: "Poppins", sans-serif ;
+}
+.icons{
+	width: px;
+	height: 20px;
+	margin: 30px;
+	font-size: 50px;
+}
