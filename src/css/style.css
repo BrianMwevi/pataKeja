@@ -170,12 +170,11 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
 /* section booktour start */
 .ft-bookTour {
   margin-top: 100px;
-  margin-right: 15px;
+  margin-right: 5%;
 }
 .sideA {
   padding-left: 8%;
-  height: 403px;
-  margin: 28px 10px 28px 0px;
+  margin: 28px 0px 28px 0px;
 }
 .hr-line {
   display: flex;
@@ -206,14 +205,12 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
 .sideA h2 {
   font-weight: 600;
   font-size: 32px;
-  line-height: 40px;
   text-transform: capitalize;
   color: #1b1c57;
 }
 .sideA p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 28px;
   color: #626687;
   opacity: 0.75;
 }
@@ -223,7 +220,6 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
 .contact {
   width: 65%;
   height: 52.48px;
-  margin-top: 40px;
 }
 .clogo {
   width: 52.48px;
@@ -259,7 +255,6 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   height: 35px;
 }
 .sideB {
-  padding-right: 70px;
   height: 459px;
   margin-right: 6%;
 }
@@ -280,7 +275,7 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   background-size: 100% 100%;
   background-position: center center;
   position: absolute;
-  width: 296px;
+  width: 47%;
   height: 168px;
   left: 13%;
   bottom: 0%;
@@ -292,7 +287,7 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   background-size: 100% 100%;
   background-position: center center;
   position: absolute;
-  width: 96px;
+  width: 15%;
   height: 80px;
   left: 63%;
   bottom: 0%;
@@ -304,7 +299,7 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   background-size: 100% 100%;
   background-position: center center;
   position: absolute;
-  width: 96px;
+  width: 15%;
   height: 80px;
   left: 80%;
   bottom: 0%;
@@ -316,7 +311,7 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   background-size: 100% 100%;
   background-position: center center;
   height: 48px;
-  width: 48px;
+  width: 8%;
   position: absolute;
   left: 55%;
   top: 40%;
