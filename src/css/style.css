@@ -1,28 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 /* General Styles Start */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 /* General Styles End */
+
 /* Homepage Start */
 header {
   position: relative;
+  height: 100vh;
 }
 .home-right {
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   right: 0;
   width: 50%;
   background: url(../images/home-image.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center center;
   z-index: -1;
 }
 .home-left {
   position: relative;
+  height: 100%;
   width: 50%;
 }
 .home-text {
@@ -57,14 +62,7 @@ header {
 
 /* section booktour start */
 .ft-bookTour {
-  /* border: 5px solid black; */
-  /* position: absolute; */
-  /* justify-content: center;
-  align-items: center; */
-  /* height: 100vh; */
-  /* left: 116px; */
-  /* margin: 800px 20px 0px 20px; */
-  margin-top: 800px;
+  margin-top: 150px;
 }
 /* start container sideA */
 .sideA {
@@ -166,21 +164,17 @@ header {
 .sideB {
   width: 528px;
   padding-right: 70px;
-  /* border: 2px solid black; */
   height: 459px;
-  /* left: 100px; */
 }
 .sideB .pic1 {
   background: url(../images/home1.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  /* border: 2px solid black; */
   position: absolute;
   width: 488px;
   height: 416px;
   left: 200px;
-  /* margin-top: 0px;  */
   border-radius: 4px;
 }
 .sideB .pic2 {
@@ -188,7 +182,6 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  /* border: 2px solid black; */
   position: absolute;
   width: 296px;
   height: 168px;
@@ -201,7 +194,6 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  /* border: 2px solid black; */
   position: absolute;
   width: 96px;
   height: 80px;
@@ -214,7 +206,6 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  /* border: 2px solid black; */
   position: absolute;
   width: 96px;
   height: 80px;
@@ -227,11 +218,9 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  /* border: 2px solid black; */
   position: absolute;
   left: 422px;
   margin-top: 200px;
-  /* background: rgba(255, 255, 255, 0.5); */
   backdrop-filter: blur(5px);
 }
 
