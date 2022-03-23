@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap"); */
+
 /* General Styles Start */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Lexend", sans-serif;
 }
 /* General Styles End */
 
 /* Homepage Start */
+.navbar {
+  z-index: 3;
+}
 header {
   position: relative;
   height: 100vh;
@@ -19,11 +25,24 @@ header {
   top: 0;
   right: 0;
   width: 50%;
-  background: url(../images/home-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  z-index: -1;
+}
+
+.home-right .slider-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px 0 10px 15px;
+  text-align: left;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 167, 81, 0.74) 3.16%,
+    rgba(209, 250, 229, 0.5254) 64.68%,
+    rgba(209, 250, 229, 0) 82.97%
+  );
+}
+
+.slider-header {
+  color: #1b1c57;
 }
 .home-left {
   position: relative;
@@ -32,21 +51,22 @@ header {
 }
 .home-text {
   position: absolute;
-  left: 13%;
+  left: 9%;
 }
 .home-title {
   text-transform: capitalize;
   color: #1b1c57;
   font-size: 40px;
   line-height: 50px;
-  font-weight: 900;
+  font-weight: 600;
+  font-style: normal;
 }
 .home-title__clip {
-  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-stroke: 1px;
+  -webkit-text-stroke: 1.5px #1b1c57;
 }
 
 .home-title,
@@ -60,17 +80,106 @@ header {
 }
 /* Homepage End */
 
+/* featured houses style Start */
+.featured-units-home {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  margin: 100px 0;
+}
+.featured-header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 4%;
+}
+.featured-header h4 {
+  color: #1b1c57;
+  font-weight: bolder;
+  font-size: 32px;
+}
+.toggle-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.toggle-button button {
+  border-radius: 2em;
+  width: 60px;
+  font-size: 1.1em;
+  font-weight: bolder;
+  padding: 6px 8px;
+}
+.featured-card {
+  width: 18rem;
+  margin: 2%;
+  background: none;
+  border: none;
+}
+
+.featured-image img {
+  border-radius: 1.5em;
+  height: 400px;
+}
+
+.featured-image {
+  position: relative;
+}
+.featured-tag {
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  font-weight: bold;
+}
+
+.featured-tag > p {
+  background-color: #d1fae5bd;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  font-weight: 800;
+  font-size: 14px;
+}
+div > .featured-card:first-child > .featured-image > .featured-tag p {
+  background-color: hsla(149, 84%, 58%, 0.71);
+  color: #1f2f58;
+}
+div > .featured-card:nth-child(2) > .featured-image > .featured-tag p {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
+  color: #047857;
+}
+
+.ft-card-body > .ft-card-text {
+  font-weight: bold;
+  font-size: 24px;
+  color: #0e1735;
+}
+.ft-card-body > .ft-card-text:last-child {
+  color: #3c4563;
+  font-size: 20px;
+}
+.slide-2 {
+  display: none;
+}
+/* featured houses style end */
+
 /* section booktour start */
 .ft-bookTour {
-  margin-top: 150px;
+  margin-top: 100px;
+  margin-right: 15px;
+  /* border: 2px solid black; */
 }
 /* start container sideA */
 .sideA {
   padding-left: 70px;
   height: 403px;
-  width: 480px;
-  /* border: 2px solid black; */
-  margin: 28px 0px 28px 0px;
+  /* width: 480px; */
+  /* border: 2px solid rgb(23, 145, 39); */
+  margin: 28px 10px 28px 0px;
 }
 .hr-line {
   display: flex;
@@ -162,9 +271,11 @@ header {
 
 /* start container sideB */
 .sideB {
-  width: 528px;
-  padding-right: 70px;
+  /* width: 528px; */
+  /* padding-right: 70px; */
   height: 459px;
+  /* border: 2px solid rgb(202, 16, 16); */
+  margin-right: 20px;
 }
 .sideB .pic1 {
   background: url(../images/home1.jpeg);
@@ -174,7 +285,7 @@ header {
   position: absolute;
   width: 488px;
   height: 416px;
-  left: 200px;
+  left: 27%;
   border-radius: 4px;
 }
 .sideB .pic2 {
@@ -185,7 +296,7 @@ header {
   position: absolute;
   width: 296px;
   height: 168px;
-  left: 160px;
+  left: 20%;
   margin-top: 291px;
   border-radius: 4px;
 }
@@ -197,7 +308,7 @@ header {
   position: absolute;
   width: 96px;
   height: 80px;
-  left: 468px;
+  left: 67%;
   margin-top: 379px;
   border-radius: 4px;
 }
@@ -209,7 +320,7 @@ header {
   position: absolute;
   width: 96px;
   height: 80px;
-  left: 572px;
+  left: 83%;
   margin-top: 379px;
   border-radius: 4px;
 }
