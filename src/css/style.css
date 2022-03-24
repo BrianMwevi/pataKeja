@@ -707,4 +707,17 @@ div > .col:nth-child(3) .featured-card > .featured-image > .featured-tag p {
 	font-size: 24px;
 	color: #1b1c57;
 }
+
+.footer-card-title {
+	font-size: 24px;
+	color: #1b1c57;
+	font-weight: 600;
+	padding-top: 32px;
+}
+
+.footer-logo-title {
+	color: #1b1c57;
+	font-weight: 600;
+}
+
 /* Footer End */
