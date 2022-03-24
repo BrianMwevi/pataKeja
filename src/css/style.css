@@ -18,6 +18,108 @@ header {
   position: relative;
   height: 100vh;
 }
+/* Account Section Start */
+.account-container {
+	position: fixed;
+	top: 0;
+	z-index: 5;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(6, 48, 34, 0.877);
+}
+
+.account-container h3 {
+	font-weight: bold;
+}
+
+.account {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+border-radius: 10px;
+	display: flex;
+	top: 15%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, 0);
+}
+
+.form-container {
+	border-radius: 0 5px 5px 0;
+	width: 50%;
+	padding: 50px;
+	background-color: #fff;
+	transition: all 0.3s linear;
+	text-align: center;
+}
+
+.signup-container {
+	transform: translate(-20%);
+}
+
+.login-container {
+	transform: translate(0);
+	z-index: 3;
+}
+
+.overlay-container {
+	position: inherit;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+}
+.overlay {
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+	background: #ff416c;
+	background: -webkit-linear-gradient(to right, #10b981, #39ee908c);
+	background: linear-gradient(to right, #10b981, #39ee908c);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+}
+
+.overlay-content {
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 40%;
+	width: 50%;
+	height: 100%;
+}
+
+.overlay-right {
+	transform: translateX(15%);
+	right: 0;
+}
+
+.overlay-text {
+	top: 10%;
+	transform: translate(0, -50%);
+	padding: 50px;
+	text-align: center;
+}
+
+.overlay-left-inactive {
+	transform: translateX(100%);
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+	transition: all 0.3s linear;
+}
+
+.overlay-right-inactive {
+	transform: translateX(-100%);
+	border-radius: 5px 0 0 5px;
+}
+
+.show {
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(0%);
+	transition: all 0.3s linear;
+	z-index: 5;
+	border-radius: 10px;
+}
+/* Account Section End */
 
 .home-right {
   height: 100%;
