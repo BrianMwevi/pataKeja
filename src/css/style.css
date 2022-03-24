@@ -85,30 +85,21 @@ header {
 /* Homepage End */
 
 /* featured houses style Start */
-.featured-units-home {
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  margin: 100px 0;
+.ft-houses {
+  height: 100vh;
 }
-
-.featured-header {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-bottom: 4%;
-}
-
-.featured-header h4 {
+.ft-header h4 {
   color: #1b1c57;
   font-weight: bolder;
   font-size: 32px;
 }
-
+.ft-header {
+  position: relative;
+}
 .toggle-button {
-	position: absolute;
-	right: 0;
-	bottom: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .toggle-button button {
@@ -121,14 +112,13 @@ header {
 
 .featured-card {
   width: 18rem;
-  margin: 2%;
   background: none;
   border: none;
 }
 
 .featured-image img {
   border-radius: 1.5em;
-  height: 400px;
+  height: 280px;
 }
 .col-md-two {
 	float: left;
@@ -174,17 +164,18 @@ header {
   font-weight: 800;
   font-size: 14px;
 }
-div > .featured-card:first-child > .featured-image > .featured-tag p {
+div > .col:first-child > .featured-card > .featured-image > .featured-tag p {
   background-color: hsla(149, 84%, 58%, 0.71);
   color: #1f2f58;
 }
-div > .featured-card:nth-child(2) > .featured-image > .featured-tag p {
+div > .col:nth-child(2) > .featured-card > .featured-image > .featured-tag p {
   background-color: #dbeafe;
   color: #1d4ed8;
 }
 
-div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
-  color: #047857;
+div > .col:nth-child(3) .featured-card > .featured-image > .featured-tag p {
+  color: #05694d;
+  background-color: #e9edf3;
 }
 
 .ft-card-body > .ft-card-text {
@@ -204,7 +195,7 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
 
 /* section booktour start */
 .ft-bookTour {
-	margin-top: 50px;
+	margin: 400px 0 100px;
 	margin-right: 15px;
 	/* border: 2px solid black; */
 }

@@ -1,46 +1,45 @@
 $(document).ready(function () {
-  console.log("page loaded");
-  slider();
+	console.log("page loaded");
 });
 
 // featured section slider
 let slider = () => {
-  $(".next").click(function () {
-    let currentSlide = $(".slide.active");
-    let nextSlide = currentSlide.next();
+	$(".next").click(function () {
+		let currentSlide = $(".slide.active");
+		let nextSlide = currentSlide.next();
 
-    currentSlide.fadeOut(400).removeClass("active");
-    nextSlide.fadeIn(400).addClass("active");
+		currentSlide.fadeOut(400).removeClass("active");
+		nextSlide.fadeIn(400).addClass("active");
 
-    if (nextSlide.length == 0) {
-      $(".slide").first().fadeIn(300).addClass("active");
-    }
-  });
+		if (nextSlide.length == 0) {
+			$(".slide").first().fadeIn(300).addClass("active");
+		}
+	});
 
-  $(".prev").click(function () {
-    console.log("prev btn pressed");
-    let currentSlide = $(".slide.active");
-    let prevSlide = currentSlide.prev();
+	$(".prev").click(function () {
+		console.log("prev btn pressed");
+		let currentSlide = $(".slide.active");
+		let prevSlide = currentSlide.prev();
 
-    currentSlide.fadeOut(300).removeClass("active");
-    prevSlide.fadeIn(300).addClass("active");
+		currentSlide.fadeOut(300).removeClass("active");
+		prevSlide.fadeIn(300).addClass("active");
 
-    if (prevSlide.length == 0) {
-      $(".slide").last().fadeIn(300).addClass("active");
-    }
-  });
+		if (prevSlide.length == 0) {
+			$(".slide").last().fadeIn(300).addClass("active");
+		}
+	});
 };
 
 // start of booktour contact form
 
 const isvalidEmail = (email) => {
-  let emFilter =
-    /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-  return emFilter.test(String(email).toLocaleLowerCase());
+	let emFilter =
+		/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	return emFilter.test(String(email).toLocaleLowerCase());
 };
 const isvalidPhone = (phone) => {
-  let phFilter = /[0-9 -()+]+$/;
-  return phFilter.test(String(phone).toLocaleLowerCase());
+	let phFilter = /[0-9 -()+]+$/;
+	return phFilter.test(String(phone).toLocaleLowerCase());
 };
 let form = document.querySelector(".main-form");
 let nameInput = document.querySelector("#name");
@@ -55,56 +54,56 @@ let inputs = [nameInput, emailInput, phoneInput, locationInput, messageInput]; /
 let isFormValid = false;
 
 const resetElm = (elm) => {
-  // elm.classList.add("invalid");
-  elm.nextElementSibling.classList.add("please");
+	// elm.classList.add("invalid");
+	elm.nextElementSibling.classList.add("please");
 };
 const inValidateElm = (elm) => {
-  elm.nextElementSibling.classList.remove("please");
+	elm.nextElementSibling.classList.remove("please");
 };
 //validating inputs
 let validateInputs = () => {
-  isFormValid = true;
+	isFormValid = true;
 
-  resetElm(nameInput);
-  resetElm(emailInput);
-  resetElm(phoneInput);
-  resetElm(locationInput);
-  resetElm(messageInput);
+	resetElm(nameInput);
+	resetElm(emailInput);
+	resetElm(phoneInput);
+	resetElm(locationInput);
+	resetElm(messageInput);
 
-  if (!nameInput.value) {
-    inValidateElm(nameInput);
-    isFormValid = false;
-  }
-  if (!isvalidEmail(emailInput.value)) {
-    inValidateElm(emailInput);
-    isFormValid = false;
-  }
-  if (!isvalidPhone(phoneInput.value)) {
-    inValidateElm(phoneInput);
-    isFormValid = false;
-  }
-  if (!locationInput.value) {
-    inValidateElm(locationInput);
-    isFormValid = false;
-  }
-  if (!messageInput.value || messageInput <= 10) {
-    inValidateElm(messageInput);
-    isFormValid = false;
-  }
+	if (!nameInput.value) {
+		inValidateElm(nameInput);
+		isFormValid = false;
+	}
+	if (!isvalidEmail(emailInput.value)) {
+		inValidateElm(emailInput);
+		isFormValid = false;
+	}
+	if (!isvalidPhone(phoneInput.value)) {
+		inValidateElm(phoneInput);
+		isFormValid = false;
+	}
+	if (!locationInput.value) {
+		inValidateElm(locationInput);
+		isFormValid = false;
+	}
+	if (!messageInput.value || messageInput <= 10) {
+		inValidateElm(messageInput);
+		isFormValid = false;
+	}
 };
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  validateInputs();
-  if (isFormValid) {
-    form.remove();
-    thanks.classList.remove("thanks");
-  }
+	e.preventDefault();
+	validateInputs();
+	if (isFormValid) {
+		form.remove();
+		thanks.classList.remove("thanks");
+	}
 });
 
 inputs.forEach((input) => {
-  input.addEventListener("input", (e) => {
-    validateInputs();
-  });
+	input.addEventListener("input", (e) => {
+		validateInputs();
+	});
 });
 
 // end of booktour contact form
