@@ -255,19 +255,42 @@ div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
   color: #888b97;
   opacity: 0.75;
 }
+.conbutton {
+  cursor: pointer;
+}
+.conbutton:hover {
+  background-color: transparent;
+  color: #047857;
+}
 .main-form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   height: 500px;
 }
-.main-form input {
-  height: 35px;
+
+.form-input input {
+  padding: 10px;
+  width: 100%;
+}
+.error-hint {
+  color: red;
+}
+.please {
+  display: none;
+}
+.thanks {
+  display: none;
 }
 .send {
   width: 150px;
   height: 35px;
+}
+.send:hover {
+  background-color: transparent;
+  color: #047857;
 }
 .sideB {
   height: 459px;
