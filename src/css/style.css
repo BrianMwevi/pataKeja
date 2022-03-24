@@ -92,7 +92,7 @@ header {
 
 .featured-image img {
   border-radius: 1.5em;
-  height: 400px;
+  height: 280px;
 }
 
 .featured-image {
@@ -112,17 +112,18 @@ header {
   font-weight: 800;
   font-size: 14px;
 }
-div > .featured-card:first-child > .featured-image > .featured-tag p {
+div > .col:first-child > .featured-card > .featured-image > .featured-tag p {
   background-color: hsla(149, 84%, 58%, 0.71);
   color: #1f2f58;
 }
-div > .featured-card:nth-child(2) > .featured-image > .featured-tag p {
+div > .col:nth-child(2) > .featured-card > .featured-image > .featured-tag p {
   background-color: #dbeafe;
   color: #1d4ed8;
 }
 
-div > .featured-card:nth-child(3) > .featured-image > .featured-tag p {
+div > .col:nth-child(3) .featured-card > .featured-image > .featured-tag p {
   color: #047857;
+  background-color: #dbeafe;
 }
 
 .ft-card-body > .ft-card-text {
