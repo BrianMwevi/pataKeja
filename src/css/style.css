@@ -480,7 +480,6 @@ div > .col:nth-child(3) .featured-card > .featured-image > .featured-tag p {
 
 /* What Customers Say About Us Section Start */
 
-
 .testimonials {
 	padding: 70px 40px 60px;
 }
@@ -686,3 +685,26 @@ div > .col:nth-child(3) .featured-card > .featured-image > .featured-tag p {
 	color: #888b97;
 }
 /* Article section end */
+
+/* Footer Start */
+.subscribe {
+	background-image: url(../images/subscribe.png);
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 100px;
+	border-radius: 30px;
+}
+
+.subscribe-title {
+	text-transform: capitalize;
+	text-align: center;
+	color: #1b1c57;
+	font-weight: 600;
+}
+
+.footer-social i {
+	font-size: 24px;
+	color: #1b1c57;
+}
+/* Footer End */
