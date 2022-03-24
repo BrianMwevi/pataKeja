@@ -10,7 +10,8 @@ view poject hosted mvp: [link](https://brianmwevi.github.io/pataKeja/)
 4. Willbeckh Wandaka
 5. Khalid shafi
 6. Ryan Muema
-7. Rael Wandera
+7. Stephen Makuol
+8. Rael Wandera
  ## Technology stacks
 This project is created using: 
  
