@@ -479,8 +479,10 @@ div > .col:nth-child(3) .featured-card > .featured-image > .featured-tag p {
 /* booktour End */
 
 /* What Customers Say About Us Section Start */
+
+
 .testimonials {
-	padding: 100px 0 0;
+	padding: 70px 40px 60px;
 }
 
 .heading {
@@ -512,8 +514,8 @@ div > .col:nth-child(3) .featured-card > .featured-image > .featured-tag p {
 
 .about-us-cont {
 	overflow: scroll;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin: 0 100px;
+	padding-bottom: 20px;
 }
 .about-us-cont::-webkit-scrollbar {
 	display: none;
