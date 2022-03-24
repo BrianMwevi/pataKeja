@@ -38,13 +38,11 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item mx-4">
-								<a class="nav-link text-white" href="#"
+								<a class="nav-link text-white" href="#about-us"
 									>About Us <span class="sr-only">(current)</span></a
 								>
 							</li>
-							<li class="nav-item mx-4">
-								<a class="nav-link text-white" href="#">News</a>
-							</li>
+
 							<li class="nav-item mx-4 dropdown">
 								<a
 									class="nav-link text-white dropdown-toggle"
@@ -58,14 +56,17 @@
 									Houses
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="#">Single Rooms</a>
+									<a class="dropdown-item" href="#houses">Single Rooms</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Bedsitters</a>
+									<a class="dropdown-item" href="#houses">Bedsitters</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">1 Bedrooms</a>
+									<a class="dropdown-item" href="#houses">1 Bedrooms</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">2 Bedrooms</a>
+									<a class="dropdown-item" href="#houses">2 Bedrooms</a>
 								</div>
+							</li>
+							<li class="nav-item mx-4">
+								<a class="nav-link text-white" href="#articles">News</a>
 							</li>
 						</ul>
 						<button class="btn account-signup btn-light mx-4 px-4 my-2 my-sm-0">
@@ -288,6 +289,7 @@
 			id="slider"
 			data-bs-ride="carousel"
 		>
+			<div id="houses"></div>
 			<!-- CAROUSEL CONTAINER -->
 			<div class="container p-5">
 				<div class="ft-header m-5">
@@ -411,7 +413,9 @@
 							</div>
 							<div class="card-body ft-card-body">
 								<p class="card-text ft-card-text">Kasarani</p>
-								<p class="card-text ft-card-text">Ksh 8,000 <small>Per Month</small></p>
+								<p class="card-text ft-card-text">
+									Ksh 8,000 <small>Per Month</small>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -423,7 +427,7 @@
 		<!-- featured section end -->
 
 		<!-- start of section book tour -->
-		<div class="container-sm ft-bookTour">
+		<div class="container-sm ft-bookTour" id="about-us">
 			<div class="row">
 				<div class="container-sm col-sm sideA">
 					<div class="container-sm">
@@ -600,7 +604,7 @@
 		<!-- end of section booktour -->
 
 		<!-- Articles start-->
-		<div class="articlesection mt-5">
+		<div class="articlesection mt-5" id="articles">
 			<h3 class="section-introduction">
 				<strong>Find Out More About <br />Sellling And Buying Houses</strong>
 			</h3>

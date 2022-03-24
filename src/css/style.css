@@ -7,6 +7,9 @@
 	box-sizing: border-box;
 	font-family: "Lexend", sans-serif;
 }
+html {
+	scroll-behavior: smooth;
+}
 /* General Styles End */
 
 /* Homepage Start */
