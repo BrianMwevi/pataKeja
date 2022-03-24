@@ -1,6 +1,23 @@
 $(document).ready(function () {
-	console.log("page loaded");
+	$(".account-overlay, .account-signup,.account-login").click(
+		toggleAccountContainer
+	);
+	$(".signup-btn, .login-btn").click(toggleAccountForms);
 });
+
+// Account Section Start
+const toggleAccountContainer = (e) => {
+	$(".account-container").fadeToggle("slow");
+	toggleAccountForms()
+};
+
+const toggleAccountForms = (e) => {
+	$(".signup-container, .overlay-right").toggleClass("show");
+	$(".overlay-left").toggleClass("overlay-left-inactive");
+	$(".login-container").toggleClass("overlay-right-inactive");
+};
+
+// Account Section End
 
 // featured section slider
 let slider = () => {
