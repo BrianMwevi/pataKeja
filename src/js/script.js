@@ -12,7 +12,7 @@ const toggleAccountContainer = (e) => {
 };
 
 const toggleAccountForms = (e) => {
-	$(".signup-container, .overlay-right").toggleClass("show");
+	$(".signup-container, .overlay-right").toggleClass("show-account");
 	$(".overlay-left").toggleClass("overlay-left-inactive");
 	$(".login-container").toggleClass("overlay-right-inactive");
 };

@@ -119,7 +119,7 @@ header {
 	border-radius: 5px 0 0 5px;
 }
 
-.show {
+.show-account {
 	visibility: visible;
 	opacity: 1;
 	transform: translateX(0%);
